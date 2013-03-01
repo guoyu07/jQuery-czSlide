@@ -1,0 +1,9 @@
+#banner {height:348px; width:592px; position:relative;overflow:hidden;z-index:20;}
+#banner img { border:0;}
+#banner .images {height:348px;}
+#banner .images div{position:absolute;z-index:3;left:0;top:0;}
+#banner .images div.current{z-index:5;}
+#banner .images div.prev{z-index:4;}
+
+#banner .thumbs {position:absolute;z-index:8;left:10px;bottom:10px;}
+#banner .thumbs div {float:left;display:block;margin-right:5px;cursor:pointer;overflow:hidden; border:1px solid #CCC; background-color:#FFF; padding:2px;}
